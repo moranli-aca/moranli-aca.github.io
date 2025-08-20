@@ -11,7 +11,7 @@ I am a researcher specializing in **Generative AI** at [Tencent Youtu Lab](https
 News
 ====
 - Awarded 2ed Place ("XuanYuan" on [Leaderboard](https://hidream-ai.github.io/ipvg-challenge.github.io/#results)) in ACM MM Identity-Preserving Video Generation (IPVG) Challenge, 2025.
-- One Paper Accepted by ACM MM 2025.
+- Two Paper Accepted by ACM MM 2025.
 
 Publications
 ======
