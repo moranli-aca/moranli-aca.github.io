@@ -6,11 +6,11 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a researcher specializing in **Generative AI** at [Tencent Youtu Lab](https://open.youtu.qq.com). Previously, I worked as a full-time engineer at Kuaishou Technology ([Kwai Inc.](https://www.kuaishou.com/en)) from 2021 to 2023. I also completed research internships at Kwai (mentored by [Haibin Huang](https://brotherhuang.github.io/) and [Chongyang Ma](http://chongyangma.com/)) and [Tencent AI Lab](https://ailab.tencent.com/ailab/zh/index) (mentored by [Yuan Gao](https://yuan-gao.net/)).  I obtained my Bachelor's and Master's (supervised by [Prof. Nong Sang](https://scholar.google.com/citations?user=ky_ZowEAAAAJ&hl)) degrees from Huazhong University of Science and Technology (HUST) in 2018 and 2021, respectively.
+I am a researcher specializing in **Generative AI** at [Tencent Youtu Lab](https://open.youtu.qq.com). Previously, I worked as a full-time engineer at Kwai ([Kwai Inc.](https://www.kuaishou.com/en)) from 2021 to 2023. I also completed research internships at Kwai (mentored by [Haibin Huang](https://brotherhuang.github.io/) and [Chongyang Ma](http://chongyangma.com/)) and [Tencent AI Lab](https://ailab.tencent.com/ailab/zh/index) (mentored by [Yuan Gao](https://yuan-gao.net/)).  I obtained my Bachelor's and Master's (supervised by [Prof. Nong Sang](https://scholar.google.com/citations?user=ky_ZowEAAAAJ&hl)) degrees from Huazhong University of Science and Technology (HUST) in 2018 and 2021, respectively.
 
 News
 ====
-- Awarded 2ed Place ("XuanYuan" on [Leaderboard](https://hidream-ai.github.io/ipvg-challenge.github.io/#results)) in ACM MM Identity-Preserving Video Generation (IPVG) Challenge, 2025.
+- Awarded 2nd Place ("XuanYuan" on [Leaderboard](https://hidream-ai.github.io/ipvg-challenge.github.io/#results)) in ACM MM Identity-Preserving Video Generation (IPVG) Challenge, 2025.
 
 Publications
 ======
