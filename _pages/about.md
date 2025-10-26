@@ -33,4 +33,4 @@ Education
 ======
 - 2018/09 ~ 2021/07, HUST, AIA Dept, Master
   - Supervisor: [Prof. Nong Sang](https://scholar.google.com/citations?user=ky_ZowEAAAAJ&hl)
-- 2014.09 ~ 2018.07, HUST, OEI Dept, Qiming College, Bachelor
+- 2014.09 ~ 2018.07, HUST, OEI Dept and Qiming College, Bachelor
