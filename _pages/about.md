@@ -22,6 +22,11 @@ Publications
 {% endfor %}
 </table>
 
+Professional Services
+======
+- Conference Reviewer: NeurIPS/ECCV/ICCV/AAAI/ACM'MM; SIGGRAPH/Eurographics
+- Journal Reviewer: TVC(The Visual Computer)/TVCJ(The Visual Computer Journal)
+
 Honors & Awards
 ======
 - Outstanding Graduate, 2018/2021
