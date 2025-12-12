@@ -6,7 +6,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a senior researcher specializing in **Generative AI** at [Tencent Youtu Lab](https://open.youtu.qq.com). Previously, I worked as a full-time engineer at [Kwai](https://www.kuaishou.com/en) from 2021 to 2023. I also completed research internships at [Kwai](https://www.kuaishou.com/en) (mentored by [Haibin Huang](https://brotherhuang.github.io/) and [Chongyang Ma](http://chongyangma.com/)) and [Tencent AI Lab](https://ailab.tencent.com/ailab/zh/index).  I obtained my Bachelor's and Master's (supervised by [Prof. Nong Sang](https://scholar.google.com/citations?user=ky_ZowEAAAAJ&hl)) degrees from Huazhong University of Science and Technology (HUST) in 2018 and 2021, respectively.
+I am a Researcher at [TikTok](https://www.tiktok.com/en/), specializing in **Multi-Modal Generation**. Previously, I worked as a Senior Researcher at [Tencent Youtu Lab](https://open.youtu.qq.com) and a Graphics Algorithm Engineer at [Kwai](https://www.kuaishou.com/en). Prior to my full-time career, I completed research internships at [Kwai](https://www.kuaishou.com/en) (mentored by [Haibin Huang](https://brotherhuang.github.io/) and [Chongyang Ma](http://chongyangma.com/)) and [Tencent AI Lab](https://ailab.tencent.com/ailab/zh/index). I received my B.S. and M.S. degrees from Huazhong University of Science and Technology ([HUST](https://english.hust.edu.cn/)) in 2018 and 2021, respectively, under the supervision of [Prof. Nong Sang](https://scholar.google.com/citations?user=ky_ZowEAAAAJ&hl).
+
+📢 **I am looking for self-motivated interns to work on **Multi-Modal Generation** and related topics.** If you are passionate about research and have strong coding skills, please drop me an [email](moranli.aca@gmail.com) with your CV.
 
 News
 ====
