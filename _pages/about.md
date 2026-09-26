@@ -21,7 +21,7 @@ I am a Researcher at [TikTok](https://www.tiktok.com/en/), specializing in **Mul
 <section id="research-journey" class="home-section home-journey">
   <div class="home-section__heading">
     <h2>Research Journey</h2>
-    <span class="home-journey__caption"><em>Try something new</em><span aria-hidden="true"> · </span>2020 → 2026</span>
+    <span class="home-journey__caption"><em>Stay Curious. Keep Exploring</em><span aria-hidden="true"> · </span>2020 → 2026</span>
   </div>
   <div class="research-river" role="group" aria-label="Research journey from computer graphics through generative media to multimodal agent, 2020 to 2026">
     <svg class="research-river__flow" viewBox="0 0 760 190" preserveAspectRatio="none" aria-hidden="true">
