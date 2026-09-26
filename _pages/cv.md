@@ -7,8 +7,6 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
-
 Education
 ======
 * Ph.D in Version Control Theory, GitHub University, 2018 (expected)
@@ -43,19 +41,8 @@ Skills
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
+  <ul>{% assign sorted_publications = site.publications | sort: "date" | reverse %}
+  {% for post in sorted_publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
