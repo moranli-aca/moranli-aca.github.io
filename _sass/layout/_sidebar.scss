@@ -209,6 +209,10 @@
     box-shadow: none;
   }
 
+  &.is-open {
+    display: block;
+  }
+
   &:before {
     display: block;
     content: "";

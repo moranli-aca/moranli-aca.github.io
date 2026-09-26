@@ -35,20 +35,24 @@ $sidebar-screen-min-width   : 1024px;
 
 /* Dark theme for the site */
 html[data-theme="dark"] {
-    --global-base-color                 : #{$background};
-    --global-bg-color                   : #{$background};
-    --global-footer-bg-color            : #{$background};
-    --global-border-color               : #{$light-gray};
-    --global-dark-border-color          : #{$background-light};
-    --global-code-background-color      : #fafafa;
-    --global-code-text-color            : #{$darker-gray};
-    --global-fig-caption-color          : #{$light-gray};
-    --global-link-color                 : #{$link};
-    --global-link-color-hover           : #{$link-dark};
-    --global-link-color-visited         : #{$link-light};
-    --global-masthead-link-color        : #{$text};
-    --global-masthead-link-color-hover  : #{$background-light};
-    --global-text-color                 : #{$text};
-    --global-text-color-light           : #{$light-gray};
-    --global-thead-color                : #{$background-lighter};
+    --global-base-color                 : #93a7ba;
+    --global-bg-color                   : #1d2a38;
+    --global-surface-color              : #263748;
+    --global-footer-bg-color            : #182431;
+    --global-border-color               : #3c5266;
+    --global-dark-border-color          : #60788d;
+    --global-code-background-color      : #172431;
+    --global-code-text-color            : #deebf4;
+    --global-fig-caption-color          : #a7b9c8;
+    --global-link-color                 : #c5b5f2;
+    --global-link-color-hover           : #e0d7fa;
+    --global-link-color-visited         : #b6abc8;
+    --global-masthead-link-color        : #f2f7fb;
+    --global-masthead-link-color-hover  : #c5b5f2;
+    --global-text-color                 : #edf4f8;
+    --global-text-color-light           : #b1c0cd;
+    --global-thead-color                : #30475a;
+    --global-accent-soft                : rgba(114, 200, 230, 0.13);
+    --global-warm-accent                : #ff9a7d;
+    --global-warm-soft                  : rgba(255, 154, 125, 0.12);
 }

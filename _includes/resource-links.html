@@ -1,0 +1,21 @@
+{% assign resource = include.item %}
+{% if resource.citation or resource.paperurl or resource.slidesurl or resource.bibtexurl %}
+  <p class="{{ include.class | default: 'resource-links' }}">
+    {% if resource.citation %}
+      Recommended citation: {{ resource.citation }}
+      {% if resource.paperurl or resource.slidesurl or resource.bibtexurl %}<br>{% endif %}
+    {% endif %}
+    {% assign link_separator = '' %}
+    {% if resource.paperurl %}
+      <a href="{{ resource.paperurl }}">Download Paper</a>
+      {% assign link_separator = ' | ' %}
+    {% endif %}
+    {% if resource.slidesurl %}
+      {{ link_separator }}<a href="{{ resource.slidesurl }}">Download Slides</a>
+      {% assign link_separator = ' | ' %}
+    {% endif %}
+    {% if resource.bibtexurl %}
+      {{ link_separator }}<a href="{{ resource.bibtexurl }}">Download BibTeX</a>
+    {% endif %}
+  </p>
+{% endif %}
