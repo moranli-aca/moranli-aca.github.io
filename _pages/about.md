@@ -49,7 +49,7 @@ I am a Researcher at [TikTok](https://www.tiktok.com/en/), specializing in **Mul
       </article>
 
       <article class="research-river__chapter research-river__chapter--media">
-        <header><span>2023–2025</span><strong>Generative Media</strong></header>
+        <header><span>2023–2025</span><strong>Generative Content</strong></header>
         <ul>
           <li><b>3D Gen</b><small>Hair · Motion · Cloth</small></li>
           <li><b>VideoGen</b><small>Identity · Editing</small></li>
