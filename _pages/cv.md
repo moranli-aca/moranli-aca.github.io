@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Curriculum Vitae"
+#title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -13,7 +13,7 @@ redirect_from:
   <section class="cv-section">
     <h2>Research Focus</h2>
     <div class="cv-focus">
-      <div><strong>3D Digital Humans</strong><span>Hand · Face · Hair · Cloth · Motion</span></div>
+      <div><strong>3D Digital Humans</strong><span>Hand · Face / Head · Hair · Cloth · Motion</span></div>
       <div><strong>Controllable Generation</strong><span>3D Content · Identity · Video Editing</span></div>
       <div><strong>Multimodal Agents</strong><span>Multimodal Generation · Agents</span></div>
     </div>
@@ -48,15 +48,13 @@ redirect_from:
 
   <section class="cv-section">
     <h2>Education</h2>
-    <div class="cv-education">
-      <div class="cv-education__entry">
-        <strong>M.S. · Artificial Intelligence and Automation</strong>
-        <span><a href="https://english.hust.edu.cn/">Huazhong University of Science and Technology</a><small>Supervisor: <a href="https://scholar.google.com/citations?user=ky_ZowEAAAAJ&amp;hl">Prof. Nong Sang</a></small></span>
+    <div class="cv-entries">
+      <div class="cv-entry cv-entry--detail">
+        <div><strong>M.S. · Artificial Intelligence and Automation</strong><a href="https://english.hust.edu.cn/">Huazhong University of Science and Technology</a><small>Supervisor: <a href="https://scholar.google.com/citations?user=ky_ZowEAAAAJ&amp;hl">Prof. Nong Sang</a></small></div>
         <time>2018–2021</time>
       </div>
-      <div class="cv-education__entry">
-        <strong>B.S. · Optical and Electronic Information</strong>
-        <a href="https://english.hust.edu.cn/">Huazhong University of Science and Technology · Qiming College</a>
+      <div class="cv-entry cv-entry--detail">
+        <div><strong>B.S. · Optical and Electronic Information</strong><a href="https://english.hust.edu.cn/">Huazhong University of Science and Technology · Qiming College</a></div>
         <time>2014–2018</time>
       </div>
     </div>
@@ -65,11 +63,20 @@ redirect_from:
   <section class="cv-section">
     <h2>Skills</h2>
     <div class="cv-skills">
-      <span>3D Production Pipeline</span><strong>Unreal Engine · Blender · Maya · Character Rigging · Animation</strong>
+      <div><span>3D Production Pipeline</span><strong>Unreal Engine · Blender · Maya · Character Rigging · Animation</strong></div>
     </div>
   </section>
 
   <div class="cv-section-grid">
+    <section class="cv-section">
+      <h2>Honors &amp; Awards</h2>
+      <ul class="cv-compact-list">
+        <li><span>2nd Place · ACM MM IPVG Challenge</span><time>2025</time></li>
+        <li><span>Outstanding Graduate</span><time>2018, 2021</time></li>
+        <li><span>National Scholarship · Top 2%</span><time>2017</time></li>
+      </ul>
+    </section>
+
     <section class="cv-section">
       <h2>Professional Services</h2>
       <dl class="cv-services">
@@ -78,15 +85,6 @@ redirect_from:
         <dt>Journals</dt>
         <dd>TVC · TVCJ</dd>
       </dl>
-    </section>
-
-    <section class="cv-section">
-      <h2>Honors &amp; Awards</h2>
-      <ul class="cv-compact-list">
-        <li><span>2nd Place · ACM MM IPVG Challenge</span><time>2025</time></li>
-        <li><span>Outstanding Graduate</span><time>2018, 2021</time></li>
-        <li><span>National Scholarship · Top 2%</span><time>2017</time></li>
-      </ul>
     </section>
   </div>
 
