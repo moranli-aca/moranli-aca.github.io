@@ -79,7 +79,7 @@ I am a Researcher at [TikTok](https://www.tiktok.com/en/), specializing in **Mul
   </div>
   <ul class="home-news__list">
     <li><time datetime="2026-09">Sep 2026</time><span>Our papers <a href="https://zengkaiya.github.io/SteerVTE/">SteerVTE</a> and <a href="{{ '/publication/2026-conformal-cache' | relative_url }}">Conformal Cache</a> were accepted to <strong>NeurIPS 2026</strong>!</span></li>
-    <li><time datetime="2025">2025</time><span>Awarded 2nd Place ("XuanYuan" on <a href="https://hidream-ai.github.io/ipvg-challenge.github.io/#results">Leaderboard</a>) in ACM MM Identity-Preserving Video Generation (IPVG) Challenge.</span></li>
+    <li><time datetime="2025-06">Jun 2025</time><span>Awarded 2nd Place ("XuanYuan" on <a href="https://hidream-ai.github.io/ipvg-challenge.github.io/#results">Leaderboard</a>) in ACM MM Identity-Preserving Video Generation (IPVG) Challenge.</span></li>
   </ul>
 </section>
 
@@ -89,7 +89,7 @@ I am a Researcher at [TikTok](https://www.tiktok.com/en/), specializing in **Mul
     <a class="home-section__more" href="{{ '/publications/' | relative_url }}">View All <span aria-hidden="true">→</span></a>
   </div>
 {% assign sorted_pubs = site.publications | sort: "date" | reverse %}
-{% for pub in sorted_pubs limit: 6 %}
+{% for pub in sorted_pubs limit: 10 %}
   {% assign post = pub %}
   {% include archive-single-publication.html %}
 {% endfor %}
