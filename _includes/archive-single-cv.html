@@ -1,6 +1,5 @@
 <li>
-  <strong>{{ post.title }}</strong><br>
-  {{ post.authors | remove: '<br>' }}<br>
-  <i>{{ post.venue }}</i>
-  {% if post.paperurl %} · <a href="{{ post.paperurl }}">Paper</a>{% endif %}
+  <strong class="cv-publications__title">{{ post.title }}</strong>
+  <span class="cv-publications__authors">{{ post.authors | remove: '<br>' }}</span>
+  <span class="cv-publications__meta"><i>{{ post.venue }}</i>{% if post.paperurl %}<span aria-hidden="true"> · </span><a href="{{ post.paperurl }}">Paper</a>{% endif %}</span>
 </li>
