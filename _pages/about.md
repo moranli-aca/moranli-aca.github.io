@@ -59,7 +59,7 @@ I am a Researcher at [TikTok](https://www.tiktok.com/en/), specializing in **Mul
       <article class="research-river__chapter research-river__chapter--mm">
         <header><span>2026 →</span><strong>Multimodal Agent</strong></header>
         <ul>
-          <li><time>2026</time><b>MM Generation</b><small>Controllable Synthesis</small></li>
+          <li><time>2026</time><b>MM Generation</b><small>Controllable Generation</small></li>
         </ul>
       </article>
     </div>
