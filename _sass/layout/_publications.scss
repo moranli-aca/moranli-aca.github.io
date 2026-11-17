@@ -33,7 +33,7 @@
     width: 100%;
     height: 100%;
     padding: 0.25rem;
-    background: #fff;
+    background: var(--global-surface-color);
     object-fit: contain;
     transition: transform 0.25s ease;
   }
@@ -116,32 +116,32 @@
 }
 
 .publication-card__resource--paper {
-  border-color: #bfdbfe !important;
-  background: #eff6ff;
-  color: #1d65b8 !important;
+  border-color: var(--global-primary-color) !important;
+  background: var(--global-primary-soft);
+  color: var(--global-link-color) !important;
 
   &:hover {
-    background: #dbeeff;
+    background: var(--global-primary-soft-strong);
   }
 }
 
 .publication-card__resource--code {
-  border-color: #a7e6d0 !important;
-  background: #effcf7;
-  color: #087a61 !important;
+  border-color: var(--global-secondary-color) !important;
+  background: var(--global-secondary-soft);
+  color: var(--global-secondary-color) !important;
 
   &:hover {
-    background: #d9f7eb;
+    background: var(--global-secondary-soft-strong);
   }
 }
 
 .publication-card__resource--project {
-  border-color: #ddd0fa !important;
-  background: #f7f3ff;
-  color: #7250b5 !important;
+  border-color: var(--global-tertiary-color) !important;
+  background: var(--global-tertiary-soft);
+  color: var(--global-tertiary-color) !important;
 
   &:hover {
-    background: #ede5ff;
+    background: var(--global-tertiary-soft-strong);
   }
 }
 

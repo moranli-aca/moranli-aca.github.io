@@ -30,7 +30,7 @@ I am a Researcher at [TikTok](https://www.tiktok.com/en/), specializing in **Mul
 
 <section class="home-section home-publications">
   <div class="home-section__heading">
-    <h2>Selected Publications</h2>
+    <h2>Publications</h2>
     <a class="home-section__more" href="{{ '/publications/' | relative_url }}">View All <span aria-hidden="true">→</span></a>
   </div>
 {% assign sorted_pubs = site.publications | sort: "date" | reverse %}
@@ -41,18 +41,14 @@ I am a Researcher at [TikTok](https://www.tiktok.com/en/), specializing in **Mul
 </section>
 
 <section id="research-journey" class="home-section home-journey">
-  <div class="home-section__heading">
-    <h2>Research Journey</h2>
-    <span class="home-journey__caption"><em>Stay Curious. Keep Exploring</em><span aria-hidden="true"> · </span>2020 → 2026</span>
-  </div>
   <div class="research-river" role="group" aria-label="Research journey from computer graphics through generative media to multimodal agent, 2020 to 2026">
     <svg class="research-river__flow" viewBox="0 0 760 190" preserveAspectRatio="none" aria-hidden="true">
       <defs>
         <linearGradient id="research-river-gradient" x1="0" y1="0" x2="1" y2="0">
-          <stop offset="0%" stop-color="#dbeafe"></stop>
-          <stop offset="48%" stop-color="#c7e9f8"></stop>
-          <stop offset="73%" stop-color="#ccf5e7"></stop>
-          <stop offset="100%" stop-color="#e9ddff"></stop>
+          <stop offset="0%" stop-color="#dce7ff"></stop>
+          <stop offset="46%" stop-color="#d2f0eb"></stop>
+          <stop offset="74%" stop-color="#fff0c7"></stop>
+          <stop offset="100%" stop-color="#f8d8e3"></stop>
         </linearGradient>
       </defs>
       <path d="M8 84 C110 30 182 63 266 97 C356 134 405 55 492 75 C572 94 624 36 752 63 L752 149 C632 124 574 173 486 145 C402 119 353 176 260 142 C173 111 99 95 8 145 Z"></path>
@@ -91,23 +87,6 @@ I am a Researcher at [TikTok](https://www.tiktok.com/en/), specializing in **Mul
     <div class="research-river__foundation">
       <span>Core Threads</span>
       <strong>3D Digital Humans · Controllable Generation · Multimodal Agents</strong>
-    </div>
-  </div>
-</section>
-
-<section class="home-section home-reach" aria-labelledby="global-reach-title">
-  <div class="home-section__heading">
-    <h2 id="global-reach-title">Global Reach</h2>
-    <span class="home-reach__privacy">Approximate location · IP not stored by this site</span>
-  </div>
-  <div class="home-reach__layout">
-    <div class="home-reach__copy">
-      <p class="home-reach__kicker">Current visitor</p>
-      <p class="home-reach__location" data-visitor-location aria-live="polite">Locating your region…</p>
-      <p class="home-reach__detail">Research travels further when ideas are shared. This globe marks the approximate region of your current visit.</p>
-    </div>
-    <div class="visitor-globe" data-visitor-globe>
-      <canvas class="visitor-globe__canvas" aria-label="Interactive globe showing the current visitor's approximate region"></canvas>
     </div>
   </div>
 </section>
