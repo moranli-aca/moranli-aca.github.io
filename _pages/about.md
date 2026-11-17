@@ -18,6 +18,28 @@ I am a Researcher at [TikTok](https://www.tiktok.com/en/), specializing in **Mul
   </div>
 </section>
 
+<section class="home-section home-news">
+  <div class="home-section__heading">
+    <h2>News</h2>
+  </div>
+  <ul class="home-news__list">
+    <li><time datetime="2026-09">Sep 2026</time><span>Our papers <a href="https://zengkaiya.github.io/SteerVTE/">SteerVTE</a> and <a href="{{ '/publication/2026-conformal-cache' | relative_url }}">Conformal Cache</a> were accepted to <strong>NeurIPS 2026</strong>!</span></li>
+    <li><time datetime="2025-06">Jun 2025</time><span>Awarded 2nd Place ("XuanYuan" on <a href="https://hidream-ai.github.io/ipvg-challenge.github.io/#results">Leaderboard</a>) in ACM MM Identity-Preserving Video Generation (IPVG) Challenge.</span></li>
+  </ul>
+</section>
+
+<section class="home-section home-publications">
+  <div class="home-section__heading">
+    <h2>Selected Publications</h2>
+    <a class="home-section__more" href="{{ '/publications/' | relative_url }}">View All <span aria-hidden="true">→</span></a>
+  </div>
+{% assign sorted_pubs = site.publications | sort: "date" | reverse %}
+{% for pub in sorted_pubs limit: 10 %}
+  {% assign post = pub %}
+  {% include archive-single-publication.html %}
+{% endfor %}
+</section>
+
 <section id="research-journey" class="home-section home-journey">
   <div class="home-section__heading">
     <h2>Research Journey</h2>
@@ -73,26 +95,21 @@ I am a Researcher at [TikTok](https://www.tiktok.com/en/), specializing in **Mul
   </div>
 </section>
 
-<section class="home-section home-news">
+<section class="home-section home-reach" aria-labelledby="global-reach-title">
   <div class="home-section__heading">
-    <h2>News</h2>
+    <h2 id="global-reach-title">Global Reach</h2>
+    <span class="home-reach__privacy">Approximate location · IP not stored by this site</span>
   </div>
-  <ul class="home-news__list">
-    <li><time datetime="2026-09">Sep 2026</time><span>Our papers <a href="https://zengkaiya.github.io/SteerVTE/">SteerVTE</a> and <a href="{{ '/publication/2026-conformal-cache' | relative_url }}">Conformal Cache</a> were accepted to <strong>NeurIPS 2026</strong>!</span></li>
-    <li><time datetime="2025-06">Jun 2025</time><span>Awarded 2nd Place ("XuanYuan" on <a href="https://hidream-ai.github.io/ipvg-challenge.github.io/#results">Leaderboard</a>) in ACM MM Identity-Preserving Video Generation (IPVG) Challenge.</span></li>
-  </ul>
-</section>
-
-<section class="home-section home-publications">
-  <div class="home-section__heading">
-    <h2>Selected Publications</h2>
-    <a class="home-section__more" href="{{ '/publications/' | relative_url }}">View All <span aria-hidden="true">→</span></a>
+  <div class="home-reach__layout">
+    <div class="home-reach__copy">
+      <p class="home-reach__kicker">Current visitor</p>
+      <p class="home-reach__location" data-visitor-location aria-live="polite">Locating your region…</p>
+      <p class="home-reach__detail">Research travels further when ideas are shared. This globe marks the approximate region of your current visit.</p>
+    </div>
+    <div class="visitor-globe" data-visitor-globe>
+      <canvas class="visitor-globe__canvas" aria-label="Interactive globe showing the current visitor's approximate region"></canvas>
+    </div>
   </div>
-{% assign sorted_pubs = site.publications | sort: "date" | reverse %}
-{% for pub in sorted_pubs limit: 10 %}
-  {% assign post = pub %}
-  {% include archive-single-publication.html %}
-{% endfor %}
 </section>
 
 <section class="home-section home-service" markdown="1">

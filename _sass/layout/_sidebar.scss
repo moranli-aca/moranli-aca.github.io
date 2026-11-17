@@ -157,6 +157,12 @@
   }
 }
 
+.author__citation-count {
+  font-size: 0.82em;
+  font-variant-numeric: tabular-nums;
+  opacity: 0.72;
+}
+
 .author__urls-wrapper {
   position: relative;
   display: table-cell;
@@ -176,12 +182,40 @@
     display: block;
   }
 
-  button {
-    margin-bottom: 0;
+  .author__mobile-actions {
+    display: flex;
+    align-items: stretch;
+    gap: 0.25rem;
 
     @include breakpoint($large) {
       display: none;
     }
+  }
+
+  .author__scholar-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    text-decoration: none;
+  }
+
+  button {
+    margin-bottom: 0;
+    min-width: 2.35rem;
+    padding-right: 0.65rem;
+    padding-left: 0.65rem;
+
+    @include breakpoint($large) {
+      display: none;
+    }
+  }
+
+  .author__menu-toggle i {
+    transition: transform 0.18s ease;
+  }
+
+  .author__menu-toggle.open i {
+    transform: rotate(180deg);
   }
 }
 
