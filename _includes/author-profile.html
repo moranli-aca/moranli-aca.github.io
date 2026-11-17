@@ -14,8 +14,19 @@
   </div>
 
   <div class="author__urls-wrapper">
-    <button class="btn btn--inverse" type="button" aria-expanded="false">Follow</button>
-    <ul class="author__urls social-icons">
+    <div class="author__mobile-actions">
+      {% if site.author.googlescholar %}
+        <a class="btn btn--inverse author__scholar-button" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer">
+          <i class="ai ai-google-scholar ai-fw" aria-hidden="true"></i>
+          <span>Google Scholar</span>
+          {% if site.data.scholar.citations %}<span class="author__citation-count">· {{ site.data.scholar.citations }}</span>{% endif %}
+        </a>
+      {% endif %}
+      <button class="btn btn--inverse author__menu-toggle" type="button" aria-expanded="false" aria-controls="author-profile-links" aria-label="Show other profile links" title="Other profile links">
+        <i class="fas fa-chevron-down" aria-hidden="true"></i>
+      </button>
+    </div>
+    <ul id="author-profile-links" class="author__urls social-icons">
       {% if site.author.location %}
         <li class="author__desktop"><i class="fas fa-fw fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ site.author.location }}</li>
       {% endif %}
@@ -26,7 +37,7 @@
         <li><a href="https://github.com/{{ site.author.github }}"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>GitHub</a></li>
       {% endif %}
       {% if site.author.googlescholar %}
-        <li><a href="{{ site.author.googlescholar }}"><i class="ai ai-google-scholar ai-fw icon-pad-right" aria-hidden="true"></i>Google Scholar</a></li>
+        <li><a href="{{ site.author.googlescholar }}"><i class="ai ai-google-scholar ai-fw icon-pad-right" aria-hidden="true"></i>Google Scholar{% if site.data.scholar.citations %} <span class="author__citation-count">· {{ site.data.scholar.citations }}</span>{% endif %}</a></li>
       {% endif %}
       {% if site.author.orcid %}
         <li><a href="{{ site.author.orcid }}"><i class="ai ai-orcid ai-fw icon-pad-right" aria-hidden="true"></i>ORCID</a></li>
