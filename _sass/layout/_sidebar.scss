@@ -51,7 +51,7 @@
 
   p, li {
     font-family: $sans-serif;
-    font-size: $type-size-6;
+    font-size: 0.82em;
     line-height: 1.5;
   }
 
@@ -158,9 +158,19 @@
 }
 
 .author__citation-count {
+  padding: 0 0.28em;
+  border-radius: 3px;
+  background: var(--global-citation-soft);
+  color: var(--global-citation-color);
   font-size: 0.82em;
   font-variant-numeric: tabular-nums;
-  opacity: 0.72;
+  font-weight: 700;
+}
+
+.author__scholar-button:hover .author__citation-count,
+html[data-theme="dark"] .author__citation-count {
+  background: var(--global-citation-soft-strong);
+  color: var(--global-citation-color);
 }
 
 .author__urls-wrapper {
