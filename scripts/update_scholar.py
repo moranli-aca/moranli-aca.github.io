@@ -6,6 +6,8 @@ from __future__ import annotations
 import datetime as dt
 import pathlib
 import re
+import sys
+import urllib.error
 import urllib.request
 
 
@@ -28,7 +30,16 @@ def fetch_citations() -> int:
 
 
 def main() -> None:
-    citations = fetch_citations()
+    try:
+        citations = fetch_citations()
+    except (urllib.error.URLError, TimeoutError, RuntimeError, UnicodeError) as error:
+        print(
+            f"::warning title=Google Scholar update skipped::{error}. "
+            "Keeping the last known citation count.",
+            file=sys.stderr,
+        )
+        return
+
     updated_at = dt.datetime.now(dt.timezone.utc).date().isoformat()
     OUTPUT.write_text(
         f'citations: {citations}\nupdated_at: "{updated_at}"\n',
